@@ -1,5 +1,9 @@
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  return <p>HellO GenerativeAI</p>;
+  return (
+    <Button variant='destructive' size='lg'>
+      Click Me
+    </Button>
+  );
 }
