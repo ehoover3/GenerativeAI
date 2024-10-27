@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Eric Hoover - GenAI",
+  title: "Generative AI",
   description: "Generative AI application",
 };
 
