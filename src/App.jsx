@@ -79,7 +79,7 @@ export default function App() {
     <Authenticator>
       {({ signOut }) => (
         <Flex className='App' justifyContent='center' alignItems='center' direction='column' width='70%' margin='0 auto'>
-          <Heading level={1}>My Notes App</Heading>
+          <Heading level={1}>Generatiave AI</Heading>
           <View as='form' margin='3rem 0' onSubmit={createNote}>
             <Flex direction='column' justifyContent='center' gap='2rem' padding='2rem'>
               <TextField name='name' placeholder='Note Name' label='Note Name' labelHidden variation='quiet' required />
