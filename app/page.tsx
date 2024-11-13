@@ -1,3 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
-  return <p className='text-6x text-green-500'>Hello World</p>;
+  return (
+    <Button variant='danger' size='lg'>
+      Click Me
+    </Button>
+  );
 }
